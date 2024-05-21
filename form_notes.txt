@@ -1,0 +1,34 @@
+setup new email to save bookmarks for dev stuff only
+yes database so the teams in dropdown are present
+and maybe daily pulls onto DB rather than always relying on external API calls
+
+backend:
+depending on controller GET
+get all teams from whatever the league request is
+do the calcs on the teams
+simple calcs mode:
+	get last 6 results of each team
+	+3 for win, +1 for draw and total them
+	order teams by points, alphabetical if even values
+smart calcs mode:
+	assign number values to every team depending on league position (their strength, will need to be small value)
+	each match team gets +3 for win, +1 for draw as well as +opponent strength value
+	also get some bonus for away game
+	opponent strength and home/away could resolve into a star rating for difficulty
+	use win/draw/loss points (3/1/0) as well as star? could work
+	order teams by points, unlikely to have evens
+requesting league and form type:
+	serving on controller:
+		primary priority:
+		ordered teams of league in either mode by form
+		secondary priority:
+		the actual previous matches (opponent, result, score)
+		league table over 6 games (simple only i think, smart wouldnt work)
+		
+frontend:
+web app first. maybe then android/iOS?
+home page where league and also mode is selected
+results page where league table is populated depending on league teams and the mode
+back button to home page
+refresh button?
+make it all look nice
