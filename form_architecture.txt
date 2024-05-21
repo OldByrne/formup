@@ -1,0 +1,11 @@
+football api service
+database
+backend
+	repo
+	service
+	controller
+frontend
+
+backend() <-> database
+backend() <-> api
+backend() <-> frontend
