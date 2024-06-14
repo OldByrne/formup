@@ -1,3 +1,6 @@
+git changes:
+updated diagram
+
 figure out what api to use
 what data the api can give 
 map it to my own database 

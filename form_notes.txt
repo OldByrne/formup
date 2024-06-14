@@ -2,6 +2,9 @@ setup new email to save bookmarks for dev stuff only
 yes database so the teams in dropdown are present
 and maybe daily pulls onto DB rather than always relying on external API calls
 
+API contender:
+https://live-score-api.com/documentation/reference/15/football_data_history_matches
+
 backend:
 depending on controller GET
 get all teams from whatever the league request is
