@@ -6,3 +6,4 @@ what data the api can give
 map it to my own database 
 table format:
 	team name, league name, results 1-6 etc?
+
